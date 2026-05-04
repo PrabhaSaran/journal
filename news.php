@@ -1,118 +1,135 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){
-  w[l]=w[l]||[];
-  w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-  var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),
-      dl=l!='dataLayer'?'&l='+l:'';
-  j.async=true;
-  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-  f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NEW12345');
-</script>
-<!-- End Google Tag Manager -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/utm-tracker.php'; ?>
-    <title>Technoarete Journal on Accounting and Finance (TJAF)</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="css/modernmag-assets.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg" />
+  
+ <title>Technoarete Transactions on Advances in Blockchain and Cryptocurrencies</title>
+ 
 
-
-</head>
-
-<body class="boxed-style">
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NEW12345"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-    <!-- Container -->
-
-    <?php include 'header.php';?>
-
-
-    <!-- content-section 
-			================================================== -->
-
-    <div id="container">
-        <section class="pt-2" id="content-section">
-            <div class="container p-0">
-
-                <div class="row">
-
-                    <div class="col-sm-3 sidebar-sticky p-1">
-                        <?php include 'leftsidebar.php';?>
-
+    <!-- #header -->
+		<?php include 'header.php';?>
+   <!-- end header -->
+	<style>
+    .focu .glyphicon {
+    margin-right: 4px;
+    color: #f60d2b;
+    font-size: 14px;
+}
+        
+.focu ol li {
+    list-style: none !important;
+        }
+    </style>
+    
+    <section class="container block-inner">
+        <div class="">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-9">
+<div class="breadcrumbs text-left">
+                        <ul>
+                            <li><i class="pe-7s-home"></i> <a class="bread-active" href="index.php" title="">Home</a></li>
+                            <li><div>News</div></li>
+                        </ul>
                     </div>
+    
+</div>
 
-                    <div class="col-sm-6">
-
-                        <div class="col-sm-8 offset-sm-2 text-center">
-
-                            <a class="navbar-brand" href="index.php">
-                                <img src="https://www.technoarete.org/img/logo.png" alt="" style="width: 100%;">
-                            </a></div>
-
-
-
-                        <div class="title-section">
-                            <h1>News </h1>
-                        </div>
-
-                      <p><i class="fa fa-angle-double-right mr-1"></i> Technoarete Journal on Accounting and Finance (TJAF) is an open access, double peer-reviewed journal.</p>
-
-                       <p><a href="call-for-paper.php"><i class="fa fa-angle-double-right mr-1"></i> Call for Papers</a></p>
-
-                                <p><a href="join-editorial-board-member.php"><i class="fa fa-angle-double-right mr-1"></i> Join us an Editorial Board member/Reviewer</a></p>
-
-                                <p><a href="download/TJAF-Manuscript-Template.pdf"><i class="fa fa-angle-double-right mr-1"></i> Manuscript Template -Download</a></p>
-
-                                <p><a target="_blank" href="download/TJAF-Copyrights-Form.pdf"><i class="fa fa-angle-double-right mr-1"></i> Copyright form for Authors - Download</a></p>
-
-                                <p><a href="preparing-submitting-paper.php"><i class="fa fa-angle-double-right mr-1"></i> Preparing and Submitting your regular paper</a></p>
-
-                                <p><a href="guide-for-authors.php"><i class="fa fa-angle-double-right mr-1"></i> Guide for authors</a></p>
-
+<div class="col-sm-3">
+              <div class="input-group search-area mb-0">
+                    <!-- search area -->
+                    <input type="text" class="form-control" placeholder="Search articles here ..." name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </div>
-
-                    <div class="col-sm-3 sidebar-sticky">
-
-
-                        <?php include 'rightsidebar.php';?>
-
-                    </div>
-
+                </div>
+              </div>
                 </div>
             </div>
-        </section>
-        <!-- End content section -->
+        </div>
+    </section>
+    
+    
+    
 
 
+  <div class="container bg">
+        
+        <div class="row">
+            
+            
+            
+            <div class="col-md-3 col-sm-3">
+                <aside><?php include 'sidebar.php';?></aside></div>
+            
+            
+            
+            
+            <div class="col-md-9 col-sm-9">
+                <!-- left content inner -->
+              
+                
+                
+               <section>
+        <div class="">
+            <div>
+
+                 <div class="heading h-three h-two ">
+        <div class="head_section" style="margin-left:60px;"><div><span>News</span></div></div></div>
+                
+
+<div class="col-sm-12 focu col-padding">
+                        <ol>
+                <li><span class="glyphicon glyphicon-check" aria-hidden="true"></span>Blockchain and Cryptocurrencies is an open access, double peer-reviewed journal.</li>
+                            
+                    <li class="color-3"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> <a href="call-for-paper.php">Call for paper - February 2021 Issue</a></li>
+                            
+                            <li class="color-3"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> <a href="join-editorial-board-member.php">Join us an Editorial Board member/Reviewer</a> </li>
+                            
+                            <li class="color-3"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> <a href="download/Manuscript-Block Chain and Cryptocurrencies.docx"> Manuscript Template -Download</a> </li>
+                            
+                            <li class="color-3"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> <a href="download/Copyright-form-Block Chain and Cryptocurrencies.pdf" target="_blank"> Copyright form for Authors - Download</a> </li>
+                            
+                            <li class="color-3"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> <a href="preparing-submitting-paper.php">Preparing and Submitting your regular paper</a> </li>
+                            
+                            <li class="color-3"><span class="glyphicon glyphicon-check" aria-hidden="true"></span> <a href="guide-for-authors.php">Guide for authors</a> </li>
+                            
 
 
-        <?php include 'footer.php';?>
-
-
+                </ol>
+                    
+                </div>
+                
+                
+                
+            </div>
+            
+            
+            
+            
+        </div>
+    </section>
+                
+                
+                
+            </div>
+            <!-- /.left content inner -->
+            
+            
+            <!-- side content end -->
+        </div>
+        <!-- row end -->
     </div>
-    <!-- End Container -->
-
-
-    <script src="js/modernmag-plugins.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-
+    
+   
+    
+    <!-- #header -->
+		<?php include 'footer.php';?>
+   <!-- end header -->
+    
+    
+    
 </body>
+
 
 </html>

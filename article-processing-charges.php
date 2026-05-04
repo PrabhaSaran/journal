@@ -3,10 +3,14 @@
 
 <head>
   
-     <title>Technoarete Transactions on Advances in Blockchain and Cryptocurrencies</title>
+    <title>Article Processing Charges</title>
 
- 
-
+    <style>
+    .focu ol li{list-style: none !important;}
+    </style>
+    
+    
+    
     <!-- #header -->
 		<?php include 'header.php';?>
    <!-- end header -->
@@ -20,7 +24,7 @@
 <div class="breadcrumbs text-left">
                         <ul>
                             <li><i class="pe-7s-home"></i> <a class="bread-active" href="index.php" title="">Home</a></li>
-                            <li><div>Abstracting</div></li>
+                            <li><div>Article Processing Charges</div></li>
                         </ul>
                     </div>
     
@@ -64,33 +68,22 @@
                <section>
         <div class="">
             <div>
-
+<!--
+                <h3 class="category-headding " style="margin-top: 10px;">About TBEAH</h3>
+                        <div class="headding-border bg-color-3"></div>
+-->
+                
                  <div class="heading h-three h-two ">
-        <div class="head_section" style="margin-left:60px;"><div><span>Abstracting</span></div></div></div>
-                
-
-              <p> The <a href="https://www.tbeah.org/abstracting.php">abstracting of a research paper</a> facilitates its faster discovery. By availing <a href="https://www.tbeah.org/abstracting.php">abstracting services</a>, authors can make it possible for readers to discover their work easily and quickly, by using metadata and abstract information. This promotes the easy identification and consumption of even the most nuanced academic literature. The inputting of metadata such as the -
-                </p> 
-                
-                <div class="focu col-sm-12">
-                        <ol>
-                            
-                <li>title of the paper/article,</li>
-                            <li>name of author/authors,</li>
-                            <li>data of publication,</li>
-                            <li>title of the journal,</li>
-                            <li>volume and issue number,</li>
-                            <li>page number,</li>
-                            <li>subject area,</li>
-                            <li>keywords,</li>
-                            <li>DOI, etc,</li>
-                    </ol></div>
-                <p>all help in the quick compilation of links to the most relevant articles, papers, books, chapters, and passages, thereby making it easy for a reader to find exactly what he/she is looking for.</p>
+        <div class="head_section" style="margin-left:60px;"><div><span>Article Processing Charges</span></div></div></div>
+       
+              <p> Since TBEAH is an open access Journal, we promise that readers don’t pay for the subscription fee to access online published articles. For authors, only some fundamental costs like editing, production and peer- review are included to maintain normal operations of the journal. These Article Processing Charges(APC) are only used to support publishers to make the published articles freely available to all readers. In order to encourage the long-term scientific research, authors are eligible for various discounts on Article Processing Charges(APC).</p>  
+               
+               
+                <p>In an open access Journal, the publication costs of an article are paid from anauthor's research budget, or by their supporting institution, in the form of Article Processing Charges. In addition, authors who publish in our open access journals retain the copyright of their work, which is released under a "Creative Commons Attribution License," enabling the unrestricted use, distribution, and reproduction of an article in any medium, provided that the original work is properly cited.</p>
                 
                 
-                
-                
-            
+               
+            </div>
             
             
             
@@ -110,30 +103,15 @@
     </div>
     
     
-    
-    <!-- container end -->
-    <!-- Weekly News Area
-        ============================================ -->
    
-    <!-- second content -->
-   
-    
-    
-    
-    <!-- /.adds-->
-    <!-- all category  news Area
-  
-
-        ============================================ -->
     
     
     <!-- #header -->
 		<?php include 'footer.php';?>
    <!-- end header -->
     
+    
 
-    
-    
 </body>
 
 

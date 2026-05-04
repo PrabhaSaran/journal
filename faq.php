@@ -1,383 +1,484 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){
-  w[l]=w[l]||[];
-  w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-  var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),
-      dl=l!='dataLayer'?'&l='+l:'';
-  j.async=true;
-  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-  f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NEW12345');
-</script>
-<!-- End Google Tag Manager -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/utm-tracker.php'; ?>
-    <title>Technoarete Journal on Accounting and Finance (TJAF)</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="css/modernmag-assets.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg" />
+  
+<title>Technoarete Transactions on Advances in Blockchain and Cryptocurrencies</title>
+ 
 
-
-</head>
-
-<body class="boxed-style">
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NEW12345"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-    <!-- Container -->
-
-    <?php include 'header.php';?>
-
-
-    <!-- content-section 
-			================================================== -->
-
-    <div id="container">
-        <section class="pt-2" id="content-section">
-            <div class="container p-0">
-
-                <div class="row">
-
-                    <div class="col-sm-3 sidebar-sticky p-1">
-                        <?php include 'leftsidebar.php';?>
-
-                    </div>
-
-                    <div class="col-sm-6">
-
-                        <div class="col-sm-8 offset-sm-2 text-center">
-
-                            <a class="navbar-brand" href="index.php">
-                                <img src="https://www.technoarete.org/img/logo.png" alt="" style="width: 100%;">
-                            </a></div>
-
-
-                        <div class="title-section">
-                            <h1><i class="fa fa-info-circle" aria-hidden="true"  style="font-size: 27px;
+    <!-- #header -->
+		<?php include 'header.php';?>
+   <!-- end header -->
+	
+    <style>
+    .template_faq {
+    background: #edf3fe none repeat scroll 0 0;
+}
+#accordionn .panel-group {
+       background: #fff none repeat scroll 0 0;
+    border-radius: 3px;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.04);
+    margin-bottom: 0;
+    padding: 4px 50px 51px 10px;
+    margin-top: 25px;
+}
+#accordionn .panel {
+    border: medium none;
+    border-radius: 0;
+    box-shadow: none;
+    margin: 0 0 15px 10px;    margin-bottom: 30px;
+}
+#accordionn .panel-heading {
+    border-radius: 30px;
+    padding: 0;
+}
+#accordionn .panel-title a {
+    background: #0f75bd none repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: #fff;
+    display: block;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px 20px 12px 50px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+#accordionn .panel-title a.collapsed {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
     color: #333;
-    margin-right: 5px;"></i>
-FAQ </h1>
-                        </div>
+}
+       #accordionn .panel-title a:hover{
+            color: #333 !important;
+        }
+#accordionn .panel-title a::after, #accordionn .panel-title a.collapsed::after {
+    background: #f60d2b none repeat scroll 0 0;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.58);
+    color: #fff;
+    content: "";
+    font-family: fontawesome;
+    font-size: 25px;
+    height: 55px;
+    left: -20px;
+    line-height: 55px;
+    position: absolute;
+    text-align: center;
+    top: -5px;
+    transition: all 0.3s ease 0s;
+    width: 55px;
+}
+#accordionn .panel-title a.collapsed::after {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    box-shadow: none;
+    color: #333;
+    content: "";
+}
+#accordionn .panel-body {
+    background: transparent none repeat scroll 0 0;
+    border-top: medium none;
+    padding: 20px 25px 10px 9px;
+    position: relative;
+}
+#accordionn .panel-body p {
+    border-left: 1px dashed #8c8c8c;
+    padding-left: 25px;
+}
+        
+        @media(min-width:0px) and (max-width:767px) {
+  #accordionn .panel-group {
+    padding: 10px;
+                    }
+            #accordionn .panel-title a {
+    font-size: 15px;
+    line-height: 25px;
+            }
+}  
+    </style>
+    
+    
+    <section class="container block-inner">
+        <div class="">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-9">
+<div class="breadcrumbs text-left">
+                        <ul>
+                            <li><i class="pe-7s-home"></i> <a class="bread-active" href="index.php" title="">Home</a></li>
+                            <li><div>FAQ</div></li>
+                        </ul>
+                    </div>
+    
+</div>
+
+<div class="col-sm-3">
+              <div class="input-group search-area mb-0">
+                    <!-- search area -->
+                    <input type="text" class="form-control" placeholder="Search articles here ..." name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+              </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
+
+
+  <div class="container bg">
+        
+        <div class="row">
+            
+            
+            
+            <div class="col-md-3 col-sm-3">
+                <aside><?php include 'sidebar.php';?></aside></div>
+            
+            
+            
+            
+            <div class="col-md-9 col-sm-9">
+                <!-- left content inner -->
+              
+                
+                
+               <section>
+        <div class="">
+            <div>
+
+                 <div class="heading h-three h-two ">
+        <div class="head_section" style="margin-left:60px;"><div><span>FAQ </span></div></div></div>
+
+                <div class="row">				
+				<div class="col-md-12 col-padding" id="accordionn">
+					<div class="panel-group" role="tablist" aria-multiselectable="true">
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingOne">
+								<h4 class="panel-title">
+									<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+										1.How do I submit my article?
+									</a>
+								</h4>
+							</div>
+							<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+								<div class="panel-body">
+                                <p>All you have to do is to visit the homepage of the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies website and click on the <a href="online-paper-submission.php"><strong>'Submit Article or Online paper submission'</strong></a>  option. Subsequently, a submission portal where you can enter in relevant details and attach your manuscript will open.</p> 
+								</div>
+							</div>
+						</div>
                         
-                        <section class="faq-section">
-<div class="">
-  <div class="">
-                   
-                    <div class="">
-                        <div class="faq" id="accordion">
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-1">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-1" data-aria-expanded="true" data-aria-controls="faqCollapse-1">
-                                            <span class="badge">1</span>How do I submit my article?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-1" class="collapse" aria-labelledby="faqHeading-1" data-parent="#accordion">
-                                    <div class="card-body">
-                                        <p>All you have to do is to visit the homepage of the TJAF journal website and click on the <a href="online-paper-submission.php"><strong>'Submit Article or Online paper submission'</strong></a> option. Subsequently, a submission portal where you can enter in relevant details and attach your manuscript will open.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-2">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-2" data-aria-expanded="false" data-aria-controls="faqCollapse-2">
-                                            <span class="badge">2</span> How much does it cost to publish in the journal?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-2" class="collapse" aria-labelledby="faqHeading-2" data-parent="#accordion">
-                                    <div class="card-body">
-									<p> Owing to the fact that TJAF is an open-access journal, there will be no publishing charges and TJAF will publish high quality research articles free of cost. As a result of doing so, these published articles can be read, downloaded and distributed by anyone for free, from TJAF.org.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-3">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-3" data-aria-expanded="false" data-aria-controls="faqCollapse-3">
-                                            <span class="badge">3</span> Can I publish my manuscript for open access at the TJAF journal?
-
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-3" class="collapse" aria-labelledby="faqHeading-3" data-parent="#accordion">
-                                    <div class="card-body">
-									<p>    Yes, the TJAF journal is an open-access journal, where authors wishing to have their work published and accessed by anyone for free, can submit their manuscripts to do so.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-4">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-4" data-aria-expanded="false" data-aria-controls="faqCollapse-4">
-                                            <span class="badge">4</span> Is it an open access Journal ?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-4" class="collapse" aria-labelledby="faqHeading-4" data-parent="#accordion">
-                                    <div class="card-body">
-									<p>Yes, TJAF is an open-access journal.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-5">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-5" data-aria-expanded="false" data-aria-controls="faqCollapse-5">
-                                            <span class="badge">5</span> Is it a peer reviewed journal ?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-5" class="collapse" aria-labelledby="faqHeading-5" data-parent="#accordion">
-                                    <div class="card-body">
-                                       	<p> Yes, TJAF is a double-blind peer-reviewed journal.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-6">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-6" data-aria-expanded="false" data-aria-controls="faqCollapse-6">
-                                            <span class="badge">6</span> What is the frequency of the journal?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-6" class="collapse" aria-labelledby="faqHeading-6" data-parent="#accordion">
-                                    <div class="card-body">
-                                 <p>Technoarete Journal on Accounting and Finance is a bi-monthly journal and publishes new issues six times a year, during the months of January , March , May , July , September and November.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-7">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-7" data-aria-expanded="false" data-aria-controls="faqCollapse-7">
-                                            <span class="badge">7</span> Are there any publication charges levied on authors by the TJAF journal?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-7" class="collapse" aria-labelledby="faqHeading-7" data-parent="#accordion">
-                                    <div class="card-body">
-									<p> No! Owing to the fact that TJAF is an open-access journal, authors will not be levied any publication charges. TJAF is a free journal publishing high quality research articles.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-8">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-8" data-aria-expanded="false" data-aria-controls="faqCollapse-8">
-                                            <span class="badge">8</span> Can I submit more than one paper for the same issue?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-8" class="collapse" aria-labelledby="faqHeading-8" data-parent="#accordion">
-                                    <div class="card-body">
-																		<p> Yes, authors are allowed to submit more than one manuscript for a single issue of the TJAF journal, as long as each of these manuscripts is different from each other.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-9">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-9" data-aria-expanded="false" data-aria-controls="faqCollapse-9">
-                                            <span class="badge">9</span>  How can I submit my paper?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-9" class="collapse" aria-labelledby="faqHeading-9" data-parent="#accordion">
-                                    <div class="card-body">
-                                    <p> Authors can submit their manuscripts by clicking on the <a href="online-paper-submission.php"><strong> 'Online Paper Submission'</strong></a> tab on the TJAF journal website or email them to <a href="mailto:editor@ijanp.com"><strong> editor@ijanp.com</strong></a>.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-10">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-10" data-aria-expanded="false" data-aria-controls="faqCollapse-10">
-                                            <span class="badge">10</span> Which software application does the TJAF journal utilize to conduct plagiarism/similarity checks?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-10" class="collapse" aria-labelledby="faqHeading-10" data-parent="#accordion">
-                                    <div class="card-body">
-									<p> The TJAF journal makes use of the Turnitin application to carry out comprehensive and thorough plagiarism checks for all suggested manuscripts to verify their originality and authenticity.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-11">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-11" data-aria-expanded="false" data-aria-controls="faqCollapse-11">
-                                            <span class="badge">11</span> How long it will take to peer review my manuscript?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-11" class="collapse" aria-labelledby="faqHeading-11" data-parent="#accordion">
-                                    <div class="card-body">
-									<p> The TJAF journal is committed to ensuring faster peer review times than any other journal, while also ensuring the sustenance and preservation of our high standards of quality and research integrity. On average, it takes about one week or less to complete the entire peer-review process for an entire manuscript.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-12">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-12" data-aria-expanded="false" data-aria-controls="faqCollapse-12">
-                                            <span class="badge">12</span> Does TJAF provide a template for preparing a manuscript?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-12" class="collapse" aria-labelledby="faqHeading-12" data-parent="#accordion">
-                                    <div class="card-body">
-									                                    <p> Yes! One can download the manuscript template prepared by the TJAF journal to serve as a guide for those who wish to submit manuscripts, by clicking on the <a href="download/TJAF_Manuscript_Template.doc"><strong> 'Manuscript Template -Download'</strong></a> option under the 'Instruction for Authors' section in the left-hand side panel on the TJAF journal website.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-13">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-13" data-aria-expanded="false" data-aria-controls="faqCollapse-13">
-                                            <span class="badge">13</span> What is accepted file format for manuscripts at the TJAF journal ?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-13" class="collapse" aria-labelledby="faqHeading-13" data-parent="#accordion">
-                                    <div class="card-body">
-									<p> All manuscripts submitted to the TJAF journal must either be in the Adobe pdf or Microsoft Word formats.  </p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-14">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-14" data-aria-expanded="false" data-aria-controls="faqCollapse-14">
-                                            <span class="badge">14</span> When am I likely to receive an acknowledgment email for my submission?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-14" class="collapse" aria-labelledby="faqHeading-14" data-parent="#accordion">
-                                    <div class="card-body">
-									<p>An email acknowledging the receipt of your submission will be sent out within 12 to 24 hours of you submitting your manuscript to the TJAF journal.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-15">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-15" data-aria-expanded="false" data-aria-controls="faqCollapse-15">
-                                            <span class="badge">15</span> How long does it take for the entire peer-review process to be completed?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-15" class="collapse" aria-labelledby="faqHeading-15" data-parent="#accordion">
-                                    <div class="card-body">
-									<p> Although this is purely dependant on the number of manuscripts that are in queue for reviewal, it takes around two weeks on average for the entire review process to be completed.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-16">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-16" data-aria-expanded="false" data-aria-controls="faqCollapse-16">
-                                            <span class="badge">16</span> What is the scope/research area of the journal?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-16" class="collapse" aria-labelledby="faqHeading-16" data-parent="#accordion">
-                                    <div class="card-body">
-																		<p> To get to know about the scope as well as the discipline of specialization of the TJAF journal, click on the 'Aim and Scope' option under the 'About the Journal' tab on the TJAF journal website. </p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-17">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-17" data-aria-expanded="false" data-aria-controls="faqCollapse-17">
-                                            <span class="badge">17</span> Can I send just the abstract of my research work for review?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-17" class="collapse" aria-labelledby="faqHeading-17" data-parent="#accordion">
-                                    <div class="card-body">
-																		<p> No! It is mandatory for authors to send in the entire manuscripts of their research works, without any missing parts, while submitting them to the TJAF journal.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-18">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-18" data-aria-expanded="false" data-aria-controls="faqCollapse-18">
-                                            <span class="badge">18</span> What is a Paper ID?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-18" class="collapse" aria-labelledby="faqHeading-18" data-parent="#accordion">
-                                    <div class="card-body">
-																		<p> The Paper ID is a unique identification code that is given for every manuscript that is submitted to TJAF. Authors are urged to specify the Paper ID of their manuscript in all of their communications with TJAF to make the identifying of their manuscripts easier.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-19">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-19" data-aria-expanded="false" data-aria-controls="faqCollapse-19">
-                                            <span class="badge">19</span> Can I submit the same article to TJAF as well as another Journal simultaneously?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-19" class="collapse" aria-labelledby="faqHeading-19" data-parent="#accordion">
-                                    <div class="card-body">
-									<p>Unless and until a submitted manuscript has been rejected by the reviewing committee of TJAF, an author is bound by an agreement that the same manuscript has not been submitted and will not be published by any journal other than TJAF.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                            
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-20">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-20" data-aria-expanded="false" data-aria-controls="faqCollapse-20">
-                                            <span class="badge">20</span> How does the review process work?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-20" class="collapse" aria-labelledby="faqHeading-20" data-parent="#accordion">
-                                    <div class="card-body">
-									<p>At the TJAF journal, we undertake a double-blind peer-reviewing process. As soon as manuscripts are received, we sent them to members of the reviewing committee for reviewing, after details such as -</p>
+                        
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="headingTwo">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+										2. How much does it cost to publish in the journal?
+									</a>
+								</h4>
+							</div>
+							<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+								<div class="panel-body">
+									<p>Owing to the fact that Technoarete Transactions on Advances in Blockchain and Cryptocurrencies is an open-access journal, there will be no publishing charges and Technoarete Transactions on Advances in Blockchain and Cryptocurrencies will publish high quality research articles free of cost. As a result of doing so, these published articles can be read, downloaded and distributed by anyone for free.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading3">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+										3. Can I publish my manuscript for open access at the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies  ?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+								<div class="panel-body">
+									<p>Yes, the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies is an open-access journal, where authors wishing to have their work published and accessed by anyone for free, can submit their manuscripts to do so.</p>
+								</div>
+							</div>
+						</div>
+                        
+						
+						<div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading4">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+										4. Is it an open access Journal ?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+								<div class="panel-body">
+									<p>Yes, Technoarete Transactions on Advances in Blockchain and Cryptocurrencies is an open-access journal.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading5">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+										5. Is it a peer reviewed journal ?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+								<div class="panel-body">
+									<p>Yes, Technoarete Transactions on Advances in Blockchain and Cryptocurrencies is a double-blind peer-reviewed journal.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading6">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+										6. What is the frequency of the journal?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+								<div class="panel-body">
+									<p>Technoarete Transactions on Advances in Blockchain and Cryptocurrencies is a bi-annual journal, meaning it publishes two issues every year.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading7">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse7" aria-expanded="false" aria-controls="collapse7">
+										7. Are there any publication charges levied on authors by the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies  ?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7">
+								<div class="panel-body">
+									<p>No! Owing to the fact that Technoarete Transactions on Advances in Blockchain and Cryptocurrencies is an open-access journal, authors will not be levied any publication charges. Technoarete Transactions on Advances in Blockchain and Cryptocurrencies is a free journal publishing high quality research articles.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading8">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse8" aria-expanded="false" aria-controls="collapse8">
+										8. Can I submit more than one paper for the same issue?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading8">
+								<div class="panel-body">
+									<p>Yes, authors are allowed to submit more than one manuscript for a single issue of the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies , as long as each of these manuscripts is different from each other.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading9">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse9" aria-expanded="false" aria-controls="collapse9">
+										9. How can I submit my paper?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading9">
+								<div class="panel-body">
+                                    <p>Authors can submit their manuscripts by clicking on the<a href="online-paper-submission.php"><strong> 'Online Paper Submission'</strong></a> tab on the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies website or email them to <a href="mailto:editor@technoarete.org."><strong>editor@technoarete.org..</strong></a>.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                         <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading10">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="false" aria-controls="collapse10">
+										10. Which software application does the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies   utilize to conduct plagiarism/similarity checks?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+								<div class="panel-body">
+									<p>The Technoarete Transactions on Advances in Blockchain and Cryptocurrencies makes use of the Turnitin application to carry out comprehensive and thorough plagiarism checks for all suggested manuscripts to verify their originality and authenticity.</p>
+								</div>
+							</div>
+						</div>
+                         <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading11">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="false" aria-controls="collapse11">
+										11. How long it will take to peer review my manuscript?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+								<div class="panel-body">
+									<p>The Technoarete Transactions on Advances in Blockchain and Cryptocurrencies is committed to ensuring faster peer review times than any other journal, while also ensuring the sustenance and preservation of our high standards of quality and research integrity. On average, it takes about one week or less to complete the entire peer-review process for an entire manuscript.</p>
+								</div>
+							</div>
+						</div>
+                        
+                         <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading12">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="false" aria-controls="collapse12">
+										12.  Does Technoarete Transactions on Advances in Blockchain and Cryptocurrencies  provide a template for preparing a manuscript?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+								<div class="panel-body">
+                                    <p>Yes! One can download the manuscript template prepared by the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies to serve as a guide for those who wish to submit manuscripts, by clicking on the<a href="download/Manuscript-Block Chain and Cryptocurrencies.docx"><strong>
+										 'Manuscript Template -Download'</strong></a>option under the 'Instruction for Authors' section in the left-hand side panel on the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies website.</p>
+                                    
+								
+								</div>
+							</div>
+						</div>
+                        
+                        
+                         <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading13">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="false" aria-controls="collapse13">
+										 13.   What is the accepted file format for manuscripts at the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies  ?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+								<div class="panel-body">
+									<p>All manuscripts submitted to the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies must either be in the Adobe pdf or Microsoft Word formats.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                         <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading14">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="false" aria-controls="collapse14">
+									14. When am I likely to receive an acknowledgment email for my submission?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+								<div class="panel-body">
+									<p>An email acknowledging the receipt of your submission will be sent out within 12 to 24 hours of you submitting your manuscript to the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies .
+</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                         <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading15">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="false" aria-controls="collapse15">
+										15. How long does it take for the entire peer-review process to be completed?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
+								<div class="panel-body">
+									<p>Although this is purely dependent on the number of manuscripts that are in queue for reviewal, it takes around two weeks on average for the entire review process to be completed.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        
+                         <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading16">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="false" aria-controls="collapse16">
+										16. What is the scope/research area of the journal?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
+								<div class="panel-body">
+									<p>To get to know about the scope as well as the discipline of specialization of the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies , click on the 'Aim and Scope' option under the 'About the Journal' tab on the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies website.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                         <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading17">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse17" aria-expanded="false" aria-controls="collapse17">
+                                      17. Can I send just the abstract of my research work for review?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17">
+								<div class="panel-body">
+									<p>No! It is mandatory for authors to send the entire manuscripts of their research works, without any missing parts, while submitting them to the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies .</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading18">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse18" aria-expanded="false" aria-controls="collapse18">
+                                     18.What is a Paper ID?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18">
+								<div class="panel-body">
+									<p>The Paper ID is a unique identification code that is given for every manuscript that is submitted to Technoarete Transactions on Advances in Blockchain and Cryptocurrencies. Authors are urged to specify the Paper ID of their manuscript in all of their communications with Technoarete Transactions on Advances in Blockchain and Cryptocurrencies to make identifying of their manuscripts easier.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading19">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse19" aria-expanded="false" aria-controls="collapse19">
+                                    19)Can I submit the same article to Technoarete Transactions on Advances in Blockchain and Cryptocurrencies   as well as another Journal simultaneously?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19">
+								<div class="panel-body">
+                                    <p> No!</p>
+									<p>Unless and until a submitted manuscript has been rejected by the reviewing committee of Technoarete Transactions on Advances in Blockchain and Cryptocurrencies, an author is bound by an agreement that the same manuscript has not been submitted and will not be published by any journal other than Technoarete Transactions on Advances in Blockchain and Cryptocurrencies.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading20">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse20" aria-expanded="false" aria-controls="collapse20">
+                                     20) How does the review process work?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading20">
+								<div class="panel-body">
+									<p>At the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies , we undertake a double-blind peer-reviewing process. As soon as manuscripts are received, we sent them to members of the reviewing committee for reviewing, after details such as -</p>
                                     <div class="focu">
                                    <ol style="    padding-left: 17px;">
                                    <li>the name of the author,</li>
@@ -385,193 +486,251 @@ FAQ </h1>
                                    <li> all other personal details,</li>
                                    </ol></div>
                                     <p>have been removed, in order to facilitate thoroughly impartial and merit-based reviewal.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-21">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-21" data-aria-expanded="false" data-aria-controls="faqCollapse-21">
-                                            <span class="badge">21</span>  What is the maximum number of pages that are allowed per paper?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-21" class="collapse" aria-labelledby="faqHeading-21" data-parent="#accordion">
-                                    <div class="card-body">
-																		<p> For every manuscript that is submitted, a minimum of 4 pages and a maximum of 20 pages are allowed.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-22">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-22" data-aria-expanded="false" data-aria-controls="faqCollapse-22">
-                                            <span class="badge">22</span> Are there any instructions/guidelines for authors? | What are the Terms &amp; Conditions of the journal?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-22" class="collapse" aria-labelledby="faqHeading-22" data-parent="#accordion">
-                                    <div class="card-body">
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading21">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse21" aria-expanded="false" aria-controls="collapse21">
+                                     21) What is the maximum number of pages that are allowed per paper?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading21">
+								<div class="panel-body">
+									<p>For every manuscript that is submitted, a minimum of 4 pages and a maximum of 12 Pages to 20 Pages are allowed.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading22">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="false" aria-controls="collapse22">
+                                    22) Are there any instructions/guidelines for authors? | What are the Terms & Conditions of the journal?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading22">
+								<div class="panel-body">
 									<p> Yes, there are! Please check out the 'Instruction for Authors' section on the left-hand side panel, for all guidelines and specifications.</p>
-                                    <p> To view the Terms &amp; Conditions of the TJAF journal, click on the  <a href="terms-and-conditions.php"><strong> ‘Terms &amp; Conditions’ </strong></a> option, under the ‘About Journal’ section, at the bottom of every page of the TJAF journal website.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-23">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-23" data-aria-expanded="false" data-aria-controls="faqCollapse-23">
-                                            <span class="badge">23</span> I did not find my question on your FAQ list, what do I do?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-23" class="collapse" aria-labelledby="faqHeading-23" data-parent="#accordion">
-                                    <div class="card-body">
-									                                   <p> Feel free to mail any inquiries, feedback or recommendations that you might have, to <a href="mailto:editor@ijanp.com"><strong> editor@ijanp.com.</strong></a> We'd be more than happy to resolve your queries and take stock of your suggestions.</p>
+                                    <p>To view the Terms & Conditions of the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies , click on the  <a href="terms-and-conditions.php"><strong> ‘Terms & Conditions’ </strong></a> option, under the ‘About Journal’ section, at the bottom of every page of the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies website.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading23">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse23" aria-expanded="false" aria-controls="collapse23">
+                                    23) I did not find my question on your FAQ list, what do I do?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading23">
+								<div class="panel-body">
+								   <p>Feel free to mail any inquiries, feedback or recommendations that you might have, to <a href="mailto:editor@technoarete.org."><strong>editor@technoarete.org..</strong></a> We'd be more than happy to resolve your queries and take stock of your suggestions.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading24">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse24" aria-expanded="false" aria-controls="collapse24">
+                                    24) How long does the entire peer review process normally take?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading24">
+								<div class="panel-body">
+									<p>After passing through the initial screening process, manuscripts will be sent for two or three further reviews (for a thorough evaluation of the content). Under normal circumstances, the entire process is completed in a matter of two to three weeks.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading25">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse25" aria-expanded="false" aria-controls="collapse25">
+                                    25) How can I know the status of my paper?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading25">
+								<div class="panel-body">
+									<p>Feel free to email the title of your paper and paper ID to the following address -  <a href="mailto:editor@technoarete.org."><strong>editor@technoarete.org..</strong></a> A representative of the editorial committee at Technoarete Transactions on Advances in Blockchain and Cryptocurrencies will respond with the status of your paper, within 24 hours.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading26">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse26" aria-expanded="false" aria-controls="collapse26">
+                                    26) Where can I find the manuscript guidelines and format specifications?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse26" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading26">
+								<div class="panel-body">
+									<p>Simply click on the 'Instruction for Authors' option on the left-hand side panel, and choose the <a href="download/Manuscript-Block Chain and Cryptocurrencies.docx"><strong> 'Manuscript Template -Download'</strong></a> option to download the template. This document also includes all formatting and styling specifications that are to be followed.</p>
+								</div>
+							</div>
+						</div>
+                        
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-24">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-24" data-aria-expanded="false" data-aria-controls="faqCollapse-24">
-                                            <span class="badge">24</span>  How long does the entire peer review process normally take?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-24" class="collapse" aria-labelledby="faqHeading-24" data-parent="#accordion">
-                                    <div class="card-body">
-									<p> After passing through the initial screening process, manuscripts will be sent for two or three further reviews (for a thorough evaluation of the content). Under normal circumstances, the entire process is completed in a matter of two to three weeks.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-25">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-25" data-aria-expanded="false" data-aria-controls="faqCollapse-25">
-                                            <span class="badge">25</span> How can I know the status of my paper?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-25" class="collapse" aria-labelledby="faqHeading-25" data-parent="#accordion">
-                                    <div class="card-body">
-									<p>Feel free to email the title of your paper and paper ID to the following address - editor@ijanp.com. A representative of the editorial committee at TJAF will respond with the status of your paper, within 24 hours.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-26">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-26" data-aria-expanded="false" data-aria-controls="faqCollapse-26">
-                                            <span class="badge">26</span>  Where can I find the manuscript guidelines and format specifications?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-26" class="collapse" aria-labelledby="faqHeading-26" data-parent="#accordion">
-                                    <div class="card-body">
-																		<p>  Simply click on the 'Instruction for Authors' option on the left-hand side panel, and choose the <a href="download/TJAF-Manuscript-Template.doc"><strong> 'Manuscript Template -Download'</strong></a> option to download the template. This document also includes all formatting and styling specifications that are to be followed.</p>
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading27">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse27" aria-expanded="false" aria-controls="collapse27">
+                                    27) Why do I need to sign a copyright form?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse27" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading27">
+								<div class="panel-body">
+									<p>Copyright forms secure the rights and interests of both authors and publishers. As part of the agreement, authors are mandated to hand over the exclusive license of their work to the publisher (in this case the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies ). In accordance with its open-access policy, Technoarete Transactions on Advances in Blockchain and Cryptocurrencies can publish, circulate, present and preserve manuscripts as it sees fit.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading28">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse28" aria-expanded="false" aria-controls="collapse28">
+                                    28) How many papers can an author submit and are there any restrictions?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse28" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading28">
+								<div class="panel-body">
+									<p> The Technoarete Transactions on Advances in Blockchain and Cryptocurrencies accepts any number of manuscripts from a single author as long as each of the submitted manuscripts is entirely different from each other and completely unique.</p>
+                                    <p>If you aren't quite sure about which of your manuscripts are fit for publication in the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies , you might want to take a look at our objective, aim, and scope, to get an idea of the sort of research papers and articles we publish.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading29">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse29" aria-expanded="false" aria-controls="collapse29">
+                                    29) What sort of manuscripts does the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies   generally publish?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse29" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading29">
+								<div class="panel-body">
+									<p>The Technoarete Transactions on Advances in Blockchain and Cryptocurrencies accepts and publishes a wide range of academic and scholarly work including research papers/articles, review pieces/articles, case reports/studies, etc.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        <div class="panel panel-default">
+							<div class="panel-heading" role="tab" id="heading30">
+								<h4 class="panel-title">
+									<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse30" aria-expanded="false" aria-controls="collapse30">
+                                    30) Does the Technoarete Transactions on Advances in Blockchain and Cryptocurrencies   have any impact factors to present?
+									</a>
+								</h4>
+							</div>
+							<div id="collapse30" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading30">
+								<div class="panel-body">
+									<p>Being a brand new journal, Technoarete Transactions on Advances in Blockchain and Cryptocurrencies does not have any impact factor data to present. at the moment. The impact factor value of a journal is usually a representation of the average number of citations of the works published therein, in articles/papers published by other journals recently, over the past two years.</p>
+                                    <p>Technoarete Transactions on Advances in Blockchain and Cryptocurrencies will make this data available as soon as the stipulated period has completed and accurate data has been compiled.</p>
+								</div>
+							</div>
+						</div>
+                        
+                        
+                        
+                        
+                        
+                        
+					</div>
+				</div><!--- END COL -->		
+			</div><!--- END ROW -->
+            
+            
+                
+                
 
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-27">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-27" data-aria-expanded="false" data-aria-controls="faqCollapse-27">
-                                            <span class="badge">27</span> Why do I need to sign a copyright form?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-27" class="collapse" aria-labelledby="faqHeading-27" data-parent="#accordion">
-                                    <div class="card-body">
-									<p>Copyright forms secure the rights and interests of both authors and publishers. As part of the agreement, authors are mandated to hand over the exclusive license of their work to the publisher (in this case the TJAF journal). In accordance with its open-access policy, TJAF can publish, circulate, present and preserve manuscripts as it sees fit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-28">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-28" data-aria-expanded="false" data-aria-controls="faqCollapse-28">
-                                            <span class="badge">28</span> How many papers can an author submit and are there any restrictions?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-28" class="collapse" aria-labelledby="faqHeading-28" data-parent="#accordion">
-                                    <div class="card-body">
-<p> The TJAF journal accepts any number of manuscripts from a single author as long as each of the submitted manuscripts is entirely different from each other and completely unique.</p>
-                                    <p>If you aren't quite sure about which of your manuscripts are fit for publication in the TJAF journal, you might want to take a look at our objective, aim, and scope, to get an idea of the sort of research papers and articles we publish.</p>                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-29">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-29" data-aria-expanded="false" data-aria-controls="faqCollapse-29">
-                                            <span class="badge">29</span> What sort of manuscripts does the TJAF journal generally publish?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-29" class="collapse" aria-labelledby="faqHeading-29" data-parent="#accordion">
-                                    <div class="card-body">
-									<p>The TJAF journal accepts and publishes a wide range of academic and scholarly work including research papers/articles, review pieces/articles, case reports/studies, etc.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header" id="faqHeading-30">
-                                    <div class="mb-0">
-                                        <h5 class="faq-title" data-toggle="collapse" data-target="#faqCollapse-30" data-aria-expanded="false" data-aria-controls="faqCollapse-30">
-                                            <span class="badge">30</span> Does the TJAF journal have any impact factors to present?
-                                        </h5>
-                                    </div>
-                                </div>
-                                <div id="faqCollapse-30" class="collapse" aria-labelledby="faqHeading-30" data-parent="#accordion">
-                                    <div class="card-body">
-									<p>Being a brand new journal, TJAF does not have any impact factor data to present. at the moment. The impact factor value of a journal is usually a representation of the average number of citations of the works published therein, in articles/papers published by other journals recently, over the past two years.</p>
-                                                                            <p>TJAF will make this data available as soon as the stipulated period has completed and accurate data has been compiled.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            
-                            
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                </section>
-
-                    </div>
-
-                    <div class="col-sm-3 sidebar-sticky">
-
-
-                        <?php include 'rightsidebar.php';?>
-
-                    </div>
-
-                </div>
+                
+                
             </div>
-        </section>
-        <!-- End content section -->
-
-
-
-
-        <?php include 'footer.php';?>
-
-
+            
+            
+            
+            
+        </div>
+    </section>
+                
+                
+                
+            </div>
+            <!-- /.left content inner -->
+            
+            
+            <!-- side content end -->
+        </div>
+        <!-- row end -->
     </div>
-    <!-- End Container -->
+    
+    
+ 
+    
+    
+    <!-- #header -->
+		<?php include 'footer.php';?>
+   <!-- end header -->
+    
+    
+    
+    <script>
+
+(function($) {
+	'use strict';
+	
+	jQuery(document).on('ready', function(){
+	
+			$('a.page-scroll').on('click', function(e){
+				var anchor = $(this);
+				$('html, body').stop().animate({
+					scrollTop: $(anchor.attr('href')).offset().top - 50
+				}, 1500);
+				e.preventDefault();
+			});		
+
+	}); 	
+
+				
+})(jQuery);
 
 
-    <script src="js/modernmag-plugins.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+  
 
+
+        
+    </script>
+    
+    
+    
+    
+    
 </body>
+
 
 </html>

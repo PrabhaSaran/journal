@@ -1,171 +1,127 @@
-<!doctype html>
-<html lang="en" class="no-js">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){
-  w[l]=w[l]||[];
-  w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-  var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),
-      dl=l!='dataLayer'?'&l='+l:'';
-  j.async=true;
-  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-  f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NEW12345');
-</script>
-<!-- End Google Tag Manager -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/utm-tracker.php'; ?>
-    <title>Technoarete Journal on Accounting and Finance (TJAF)</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="css/modernmag-assets.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg" />
+  
+    <title>Technoarete Transactions on Advances in Blockchain and Cryptocurrencies</title>
 
-<style>
-        .details{
-            padding: 15px;
-            margin-bottom: 5px;
-            /* border: 1px dashed #e75050; */
-            background: #f1f1f1;
-            /* background: linear-gradient(339deg, rgba(232,226,208,1) 19%, rgba(221,214,200,1) 83%); */
-            /* background: linear-gradient(339deg, rgba(217,214,204,0.9444152661064426) 17%, rgba(213,211,207,1) 67%); */
-            /* background: linear-gradient(339deg, rgba(221,219,212,0.9444152661064426) 17%, rgba(201,194,180,1) 67%); */
-            box-shadow: inset 0px 0px 3px 0px #ccc;
-        }
-        .details p{
-            line-height: 1.3;
-            color:#000;
-        }
-        </style>
-</head>
-
-<body class="boxed-style">
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NEW12345"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-    <!-- Container -->
-
-    <?php include 'header.php';?>
-
-
-    <!-- content-section 
-			================================================== -->
-
-    <div id="container">
-        <section class="pt-2" id="content-section">
-            <div class="container p-0">
-
-                <div class="row">
-
-                    <div class="col-sm-3 sidebar-sticky p-1">
-                        <?php include 'leftsidebar.php';?>
-
+    <!-- #header -->
+		<?php include 'header.php';?>
+   <!-- end header -->
+	
+    
+    <section class="container block-inner">
+        <div class="">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-9">
+<div class="breadcrumbs text-left">
+                        <ul>
+                            <li><i class="pe-7s-home"></i> <a class="bread-active" href="index.php" title="">Home</a></li>
+                            <li><div>Call for Papers</div></li>
+                        </ul>
                     </div>
+    
+</div>
 
-                    <div class="col-sm-6">
-
-                        <div class="col-sm-8 offset-sm-2 text-center">
-
-                            <a class="navbar-brand" href="index.php">
-                                <img src="https://www.technoarete.org/img/logo.png" alt="" style="width: 100%;">
-                            </a></div>
-
-
-                        <div class="title-section">
-                            <h1>Call for Papers</h1>
-                        </div>
-
-
-                        <div class="details">
-        <p><strong>Upcoming issue:</strong> :  Volume 4 Issue 3 July 2024 </p>
-        <p><strong>Last date of submission:</strong>: June 30, 2024 </p>
-        <p><strong>Review/Acceptance Notification:</strong> Between 20 days to 45 days from the date of submission </p>
-        <p><strong>Publication notification:</strong> July 2024 </p>
-        <p><strong>Author guideline:</strong><br> <a href="https://technoaretepublication.org/accounting-and-finance/guide-for-authors.php">https://technoaretepublication.org/accounting-and-finance/guide-for-authors.php</a></p>
-        <p><strong>Submission Link:</strong> <a href="https://ojs.technoaretepublication.org/index.php/tjaf/about/submissions">https://ojs.technoaretepublication.org/index.php/tjaf/about/submissions</a></p>
-        <p><strong style="color: red;">Note:</strong> If any author has a difficulty or inconvenience in uploading in online kindly send to editor@technoarete.org (with details of author name, Email id, Contact details, Full manuscript (Word format)).</p>
-        </div>
-                    
-                      
-                        <p style="    color: #f44336;"><strong> 
-                                 The journal publishes original papers including but not limited to the following fields</strong></p>
-                                 
-                                 <ul style="line-height: 29px;
-    padding-left: 30px;
-    font-size: 14px;
-    background: #f1f1f1;
-    padding-top: 10px;
-    padding-bottom: 10px;">
-                                  
-                                 <li>Corporate governance</li>
-                                 <li>Risk Management</li>
-                                 <li>Investment management</li>
-                                 <li>Capital budgeting</li>
-                                 <li>portfolio management</li>
-                                 <li>Financial statement analysis </li>
-                                 <li>Cost accounting</li>
-                                 <li>Micro finance and poverty </li>
-                                 <li>Corporate social responsibility</li>
-                                 <li>Auditing standards</li>
-                                 <li>Enterprise Risk management </li>
-                                 <li>Fraud management</li>
-                                 <li>Conventional and Islamic banks</li>
-                                 <li>Modelling and forecasting</li>
-                                 <li>Mergers and acquisitions</li>
-                                 <li>Public sector accounting and auditing </li>
-								 <li>Financial reporting </li>
-                                 <li>Social and environmental accounting</li>
-                                 <li>Investment and preservatives</li>
-                                 <li>Capital markets in emerging economics</li>
-                                 <li>Accounting information systems</li>
-                                 <li>Credits risk modelling and management </li>
-                                 <li>Foreign exchange markets</li>
-                                 <li>Bank predictions and Determinations </li>
-                                 <li>Market Microstructures</li>
-                                 <li>Macroeconomics Variables</li>
-                                 <li>Management Accounting </li>
-                                 <li>Financial innovation</li>	
-                                   </ul>
-
-
+<div class="col-sm-3">
+              <div class="input-group search-area mb-0">
+                    <!-- search area -->
+                    <input type="text" class="form-control" placeholder="Search articles here ..." name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
                     </div>
-
-                    <div class="col-sm-3 sidebar-sticky">
-
-
-                        <?php include 'rightsidebar.php';?>
-
-                    </div>
-
+                </div>
+              </div>
                 </div>
             </div>
-        </section>
-        <!-- End content section -->
+        </div>
+    </section>
+    
+    
+    
 
 
+  <div class="container bg">
+        
+        <div class="row">
+            
+            
+            
+            <div class="col-md-3 col-sm-3">
+                <aside><?php include 'sidebar.php';?></aside></div>
+            
+            
+            
+            
+            <div class="col-md-9 col-sm-9">
+                <!-- left content inner -->
+              
+                
+                
+               <section>
+                   
+                    <div class="heading h-three h-two ">
+        <div class="head_section" style="margin-left:60px;"><div><span>Call for Papers</span></div></div></div>
+                
+                <p><strong>Technoarete Transaction on Advances in Blockchain and Cryptocurrencies (TTABCC) include but are not confined to the following topics:</strong></p>
+      
+                <div class="topics">
+                        <ol><li>1. Evolution of Blockchain Mechanism</li>
+                    <li>2. Decentralization Mechanism for Blockchain</li>
+                    <li>3. Distributed Ledger Technology</li>
+                    <li>4. Analysis of Transaction Graphs</li>
+                    <li>5. Protocols and Algorithms for Blockchain Technology</li>
+                    <li>6. Permissioned Ledger</li>
+                    <li>7. Detection of Fraud in Blockchain Technology</li>
+                    <li>8. Detection and Prevention of Financial Crimes</li>
+                    <li>9. Hybridization of Blockchain with other Emergent Technology</li>
+                    <li>10. Performance Analysis and Optimisation Techniques for Blockchain Schemes</li>
+                    <li>11. Adoption of Cryptocurrency</li>
+                    <li>12. Bitcoin Security</li>
+                    <li>13. Fintech</li>
+                    <li>14. Human-computer interaction for Blockchain based applications</li>
+                    <li>15. Blockchain based software engineering methodologies</li>
+                    <li>16. Distributed artificial intelligence in blockchain</li>
+                    <li>17. Blockchain Forensics</li>
+                    <li>18. Static and dynamic blockchains</li>
+                    <li>19. Permissioned and permissionless blockchain</li>
+                    <li>20. Big Data and blockchain</li>  
+                    <li>21. Analysis of Blockchain protocols</li>
+                    <li>22. Application of blockchain in various sectors such as banking, supply chain management, Energy Management, Healthcare, Commerce, finance insurance, Logistics, e governance, education and gaming</li>
 
-
-        <?php include 'footer.php';?>
-
-
+                </ol>                    
+                </div>
+                
+         
+    </section>
+                
+                
+                
+            </div>
+            <!-- /.left content inner -->
+            
+            
+            <!-- side content end -->
+        </div>
+        <!-- row end -->
     </div>
-    <!-- End Container -->
+    
+    
 
+    
+    
+    <!-- #header -->
+		<?php include 'footer.php';?>
+   <!-- end header -->
+    
+    
+    
 
-    <script src="js/modernmag-plugins.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
-
+    
+    
+    
 </body>
+
 
 </html>

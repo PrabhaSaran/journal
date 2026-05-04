@@ -1,107 +1,103 @@
-<!doctype html>
-<html lang="en" class="no-js">
+
+<?php
+  $min_number = 1;
+  $max_number = 15;
+
+  $random_number1 = mt_rand($min_number, $max_number);
+  $random_number2 = mt_rand($min_number, $max_number);
+?>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-<!-- Google Tag Manager -->
-<script>
-(function(w,d,s,l,i){
-  w[l]=w[l]||[];
-  w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-  var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),
-      dl=l!='dataLayer'?'&l='+l:'';
-  j.async=true;
-  j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-  f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-NEW12345');
-</script>
-<!-- End Google Tag Manager -->
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/utm-tracker.php'; ?>
-    <title>Technoarete Journal on Accounting and Finance (TJAF)</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="css/modernmag-assets.min.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="shortcut icon" type="image/x-icon" href="images/favicon.jpg" />
+  
+    <title>Join as Editorial Board Member | World Journal of Advanced Research and Reviews</title>
+ <meta name="description" content="Submit your Article Online in Best International Journal of new technology and research. Submit your Research Papers online">
+  <meta name="keywords" content="Join as Editorial Board Member, World Journal of Advanced Research and Reviews,  world journal of advanced research and reviews impact factor">
+<meta property="og:locale" content="en-US" /> 
+<meta property="og:type" content="website" />
+ <meta property="og:title" content="Join as Editorial Board Member | World Journal of Advanced Research and Reviews" >
+ <meta property="og:description" content="Submit your Article Online in Best International Journal of new technology and research. Submit your Research Papers online" >
+ <meta property="og:url" content="https://www.tbeah.org/join-editorial-board-member.php">
+ <meta property="og:image" content="https://www.tbeah.org/images/logo.jpg">
+<meta name="twitter:card" content="Summary">
+ <meta name="twitter:site" content="Preparing a Manuscript for Publication 
+">
+ <meta name="twitter:title" content="Join as Editorial Board Member | World Journal of Advanced Research and Reviews"> 
+ <meta name="twitter:description" content="Submit your Article Online in Best International Journal of new technology and research. Submit your Research Papers online">
+ <meta name="twitter:image" content="https://www.tbeah.org/images/logo.jpg">
+ <meta name="twitter:image:alt" content="Join as Editorial Board Member">
+<meta name="DC.title" content="Join as Editorial Board Member | World Journal of Advanced Research and Reviews"/>
 
-    <style>
-        .input{
-            margin-bottom: 20px;
-        }
-        
-       .editorial .form-control {
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    font-weight: 600;
-    color: #333;
-}
-        
-    </style>
-
-</head>
-
-<body class="boxed-style">
-<!-- Google Tag Manager (noscript) -->
-<noscript>
-  <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NEW12345"
-  height="0" width="0" style="display:none;visibility:hidden"></iframe>
-</noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-    <!-- Container -->
-
-    <?php include 'header.php';?>
-
-
-    <!-- content-section 
-			================================================== -->
-
-    <div id="container">
-        <section class="pt-2" id="content-section">
-            <div class="container p-0">
-
-                <div class="row">
-
-                    <div class="col-sm-3 sidebar-sticky p-1">
-                        <?php include 'leftsidebar.php';?>
-
+    <!-- #header -->
+		<?php include 'header.php';?>
+   <!-- end header -->
+	
+    
+    <section class="container block-inner">
+        <div class="">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-9">
+<div class="breadcrumbs text-left">
+                        <ul>
+                            <li><i class="pe-7s-home"></i> <a class="bread-active" href="index.php" title="">Home</a></li>
+                            <li><div>Join us an editorial board member/reviewer</div></li>
+                        </ul>
                     </div>
+    
+</div>
 
-                    <div class="col-sm-6">
+<div class="col-sm-3">
+              <div class="input-group search-area mb-0">
+                    <!-- search area -->
+                    <input type="text" class="form-control" placeholder="Search articles here ..." name="q">
+                    <div class="input-group-btn">
+                        <button class="btn btn-search" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+              </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    
 
-                        <div class="col-sm-8 offset-sm-2 text-center">
 
-                            <a class="navbar-brand" href="index.php">
-                                <img src="https://www.technoarete.org/img/logo.png" alt="" style="width: 100%;">
-                            </a></div>
-
-
-                        <div class="title-section">
-                            <h1>Join us an editorial board member/reviewer</h1>
-                        </div>
-                        
-                        <div class="col-sm-12 pb-5">
-
-
-                    <!--Form with header-->
-
-                    <form action="joinedit.php" method="post" enctype="multipart/form-data">
-                        <div class="card border-primary rounded-0">
-                            <div class="card-header p-0">
-                                <div class="bg-info text-white text-center py-2">
-                                    <h3 style="font-size: 20px;"> <strong> Join us an editorial board member/reviewer </strong></h3>
-                                </div>
-                            </div>
+  <div class="container bg">
+        
+        <div class="row">
+            
+            
+            
+            <div class="col-md-3 col-sm-3">
+                <aside><?php include 'sidebar.php';?></aside></div>
+            
+            
+            
+            
+            <div class="col-md-9 col-sm-9">
+                <!-- left content inner -->
+              
+                
+                
+               <section>
+                   
+                    <div class="heading h-three h-two ">
+        <div class="head_section" style="margin-left:60px;"><div><span>Join us an editorial board member/reviewer</span></div></div></div>
+                
+                <div class="row">
+            <div class="col-sm-12">
+                <div class="contact-form-area">
+                   <form method="post" action="joinmem_mail.php" enctype="multipart/form-data">
+                        <div class="row">
                             
                             
-                        <div class="editorial row mt-4">
-                            
-                            
-                    <div class="col-sm-6 mb-4 pr-2">
+                            <div class="col-sm-6">
                                 <span class="input">
-                                <select class="input_field form-control" name="title">
+                                <select class="input_field" name="title">
                                 <option>Title</option>
                                 <option>Mr</option>
                                 <option>Mrs</option>
@@ -111,24 +107,28 @@
                                 </select></span>
                             </div>
                             
-                            <div class="col-sm-6 mb-4">
-                                <span class="input"> 
-                                        <input class="input_field form-control" name="fname" type="text" id="input-2" placeholder="First Name">
-                                       
+                            <div class="col-sm-6">
+                                <span class="input">
+                                        <input class="input_field" name="fname" type="text" id="input-2">
+                                        <label class="input_label" for="input-2">
+                                            <span class="input_label_content"> First Name</span>
+                                </label>
                                 </span>
                             </div>
                             
-                    <div class="col-sm-6 mb-4 pr-2">
+                            <div class="col-sm-6">
                                 <span class="input">
-                                        <input class="input_field form-control" name="lname" type="text" id="input-2" placeholder="Last Name">
-                                        
+                                        <input class="input_field" name="lname" type="text" id="input-2">
+                                        <label class="input_label" for="input-2">
+                                            <span class="input_label_content"> Last Name</span>
+                                </label>
                                 </span>
                             </div>
                              
                             
-                            <div class="col-sm-6 mb-4">
+                            <div class="col-sm-6">
                                 <span class="input">
-                                <select class="input_field form-control" name="gender">
+                                <select class="input_field" name="gender">
                                 <option>Gender </option>
                                 <option>Male</option>
                                 <option>Female</option>
@@ -136,160 +136,168 @@
                             </div>
                             
                             
-                    <div class="col-sm-6 mb-4 pr-2 mb-4">
+                            <div class="col-sm-6">
                                 <span class="input">
-                                        <input class="input_field form-control" name="email" type="text" id="input-3" placeholder="Email ID">
-                                        
+                                        <input class="input_field" name="email" type="text" id="input-3">
+                                        <label class="input_label" for="input-3">
+                                            <span class="input_label_content"> Emailid</span>
+                                </label>
                                 </span>
                             </div>
-                    <div class="col-sm-6 mb-4">
+                            <div class="col-sm-6">
                                 <span class="input">
-                                        <input class="input_field form-control" name="dept" type="text" id="input-4" placeholder="Department">
-                                        
-                                </span>
-                            </div>
-                            
-                            
-                            
-                    <div class="col-sm-6 mb-4 pr-2 mb-4">
-                                <span class="input">
-                                        <input class="input_field form-control" name="des" type="text" id="input-4" placeholder="Designation">
-                                        
-                                </span>
-                            </div>
-                            <div class="col-sm-6 mb-4">
-                                <span class="input">
-                                        <input class="input_field form-control" name="spec" type="text" id="input-4" placeholder="Specialization">
-                                        
-                                </span>
-                            </div>
-                            
-                    <div class="col-sm-6 mb-4 pr-2">
-                                <span class="input">
-                                        <input class="input_field form-control" name="univ" type="text" id="input-4" placeholder="University/Institution/Organization">
-                                        
-                                </span>
-                            </div>
-                            
-                             <div class="col-sm-6 mb-4">
-                                <span class="input">
-                                        <input class="input_field form-control" name="mobile" type="text" id="input-4" placeholder="Phone Number">
-                                       
+                                        <input class="input_field" name="dept" type="text" id="input-4">
+                                        <label class="input_label" for="input-4">
+                                            <span class="input_label_content">Department</span>
+                                </label>
                                 </span>
                             </div>
                             
                             
                             
-                            <div class="col-sm-12 mb-4">
+                            <div class="col-sm-6">
                                 <span class="input">
-                                        <textarea class="input_field form-control" name="address" id="message" placeholder="Address"></textarea>
-                                        
+                                        <input class="input_field" name="des" type="text" id="input-4">
+                                        <label class="input_label" for="input-4">
+                                            <span class="input_label_content">Designation </span>
+                                </label>
+                                </span>
+                            </div>
+                            <div class="col-sm-6">
+                                <span class="input">
+                                        <input class="input_field" name="spec" type="text" id="input-4">
+                                        <label class="input_label" for="input-4">
+                                            <span class="input_label_content">Specialization </span>
+                                </label>
+                                </span>
+                            </div>
+                            
+                            <div class="col-sm-6">
+                                <span class="input">
+                                        <input class="input_field" name="univ" type="text" id="input-4">
+                                        <label class="input_label" for="message">
+                                            <span class="input_label_content">University/Institution/Organization</span>
+                                </label>
+                                </span>
+                            </div>
+                            
+                             <div class="col-sm-6">
+                                <span class="input">
+                                        <input class="input_field" name="mobile" type="text" id="input-4">
+                                        <label class="input_label" for="message">
+                                            <span class="input_label_content">Phone Number</span>
+                                </label>
+                                </span>
+                            </div>
+                            
+                            
+                            
+                            <div class="col-sm-12">
+                                <span class="input">
+                                        <textarea class="input_field" name="address" id="message"></textarea>
+                                        <label class="input_label" for="message">
+                                            <span class="input_label_content">Address </span>
+                                </label>
                                 </span>
                             </div>
                             
                             
                             <div class="col-sm-6">
                                 <span class="input">
-                                        <input class="input_field form-control" name="state" type="text" id="input-4" placeholder="City/Province/State">
-                                        
+                                        <input class="input_field" name="state" type="text" id="input-4">
+                                        <label class="input_label" for="message">
+                                            <span class="input_label_content">City/Province/State </span>
+                                </label>
                                 </span>
                             </div>
                             
                             
-                            <div class="col-sm-6 mb-4">
+                            <div class="col-sm-6">
                                 <span class="input">
-                                        <input class="input_field form-control" name="country" type="text" id="input-4" placeholder="Country">
+                                        <input class="input_field" name="country" type="text" id="input-4">
+                                        <label class="input_label" for="message">
+                                            <span class="input_label_content">Country</span>
+                                </label>
                                 </span>
                             </div>
                             
                             
-                            <div class="col-sm-12 mb-4">
+                            <div class="col-sm-6">
                                 <span class="input">
-                                <select class="input_field form-control" name="register">
+                                <select class="input_field" name="register">
                                 <option>Register as </option>
                                 <option>Editor</option>
                                 <option>Reviewer</option>
                                     </select></span>
                             </div>
-                            <div class="col-sm-12 mt-2">
+                            <div class="col-sm-6 mt-2">
                                 <div class="form-group file-upload">
                                 <div class="col-sm-3 col-padding"><label><strong>Upload C.V </strong></label>
                                     </div>
                                     <div class="col-sm-8">
-                                    <input type="file" class="form-control" name="attachment" id="fileToUpload" accept=".doc, .docx, .pdf" size="50" value="" required="">
+                                    <input type="file" class="" name="attachment" id="fileToUpload" accept=".doc, .docx, .pdf" size="50" value="" required="">
                                     </div>
                                 </div>
                             </div>
                             
                             
                             
-                         			<div class="form-group">
-								<div class="col-md-12">
-														<div class="position-relative float-left form-group" style="margin: 0px 0px;">
-																				<img style="border-top: 1px solid #dddddd;border-left: 1px solid #dddddd;border-right: 1px solid #dddddd;border-top-left-radius: 5px;border-top-right-radius: 5px;padding: 0 0 0 42px;" src="../captcha/captcha.php" id="captchaimg" class="form_captcha">
-																				<div class="grs-form-field" style="width: 294px">
-																					<div class="padding-zero">
-																						<input type="text" class="form-control ng-pristine ng-valid ng-empty ng-touched" name="captcha" placeholder="Type the above code" data-ng-class="{'invalid-field-box': hasError('captcha')}" data-ng-model="offer.captcha" style="border-top-left-radius: 0px;border-top-right-radius: 0px;padding-right: 40px;border: 1px solid #dddddd;">
-																						<div class="BoxHoverClass hand" style="position: absolute;border-radius: 2px solid #dddddd;border-left: 1px solid #dddddd;border-right: 1px solid #dddddd;top: 10px;">
-																							<a id="reload" onClick="getcaptcha()"><img src="../captcha/refresh.png" width="30px" border="0" /></a>
-																						</div>
-																					</div>
-																					<!-- ngIf: hasError('captcha') -->
-																				</div>
-																			</div>
-													</div>
-</div>
-                                <div class="form-button mt-4 col-sm-12 text-center btn-block mb-5">
-												<input type="submit" value="Submit" name="submit" class="btn btn-style" style="background: #333333;color: #fff;padding: 9px 26px;font-size: 17px;">
+                            
+                            
+                            
+                           <div id="captcha-group" class="form-group row">
+							<div class="col-sm-6">
+								<label for="captcha" class="lines">Security Code <font color="#FF0000">*</font></label>
+								
+										
+						
+							
+								<?php
+								                  echo $random_number1 . ' + ' . $random_number2 . ' = ';
+								                ?>
+								                    
+								                    <input name="firstNumber" type="hidden" value="<?php echo $random_number1; ?>" />
+								                    <input name="secondNumber" type="hidden" value="<?php echo $random_number2; ?>" />
+							
+								<input name="captchaResult" type="text" size="7" placeholder="Capthca" autocomplete="off" required="" />
+								<!--<input type="text" name="captcha" value="" class="form-control captcha" required=""><div id="a5" align="left" class="help-block" style="width:10%"></div>-->
+								</div>
+							</div>
+                                <div class="form-button">
+												<input type="submit" value="Submit" name="submit" class="btn btn-style">
 											</div>
                         </div>
-                            
-                            
-                            
-                        </div>
                     </form>
-                    <!--Form with header-->
-
-
-                </div>
-
-
-                    </div>
-
-                    <div class="col-sm-3 sidebar-sticky">
-
-
-                        <?php include 'rightsidebar.php';?>
-
-                    </div>
-
                 </div>
             </div>
-        </section>
-        <!-- End content section -->
-
-
-
-
-        <?php include 'footer.php';?>
-
-
+            
+        </div>
+      
+               
+                
+         
+    </section>
+                
+                
+                
+            </div>
+            <!-- /.left content inner -->
+            
+            
+            <!-- side content end -->
+        </div>
+        <!-- row end -->
     </div>
-    <!-- End Container -->
-
-
-    <script src="js/modernmag-plugins.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-	<script type="text/javascript">
-		    $(document).ready(function(){
-		    $("#reload").click(function() {
-		    $("#captchaimg").attr("src", "../captcha/captcha.php?"+Math.random());
-		    });    
-		    });
-		</script>
-    <script src="js/script.js"></script>l
-
+ 
+    
+    <!-- #header -->
+		<?php include 'footer.php';?>
+   <!-- end header -->
+    
+    
+    
+  
 </body>
+
 
 </html>
